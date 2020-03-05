@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* header */
+.headder {
+    font-size: 30px;
+    color: #a1a1a1;
+    padding: 50px;
+}
