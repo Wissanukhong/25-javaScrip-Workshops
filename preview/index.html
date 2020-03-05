@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview </title>
+    <script src="jquery.js"></script>
+    <script src="xzoom.min.js"></script>
+    <link rel="stylesheet" href="xzoom.css">
+</head>
+<body>
+    
+    <div class="xzoom-container">
+        <img class="xzoom" src="img/gallery/preview/01_b_car.jpg" xoriginal="img/gallery/original/01_b_car.jpg" />
+        <div class="xzoom-thumbs">
+            <a href="img/gallery/original/01_b_car.jpg"><img class="xzoom-gallery" width="80" src="img/gallery/preview/01_b_car.jpg"  xpreview="images/gallery/preview/01_b_car.jpg" title="รถยนต์ 1"></a>
+            <a href="img/gallery/original/02_o_car.jpg"><img class="xzoom-gallery" width="80" src="img/gallery/preview/02_o_car.jpg" title="รถยนต์ 2"></a>
+            <a href="img/gallery/original/03_r_car.jpg"><img class="xzoom-gallery" width="80" src="img/gallery/preview/03_r_car.jpg" title="รถยนต์ 3"></a>
+            <a href="img/gallery/original/04_g_car.jpg"><img class="xzoom-gallery" width="80" src="img/gallery/preview/04_g_car.jpg" title="รถยนต์ 4"></a>
+        </div>
+    </div>
+
+    <script>
+       $(document).ready(function() {
+          $('.xzoom, .xzoom-gallery').xzoom({zoomWidth: 400, title: true, tint: '#000', Xoffset: 15});
+        });
+    </script>
+        
+
+</body>
+</html>

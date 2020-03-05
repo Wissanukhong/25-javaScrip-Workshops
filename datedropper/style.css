@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-center {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-box {
+    box-shadow: 5px 5px 20px 5px rgba(214, 241, 241, 5);
+    padding: 20px;
+}
+
+.col > label {
+    font-size: 30px;
+}
