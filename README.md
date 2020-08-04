@@ -4,10 +4,12 @@ javaScript Workshops เป็นการรวบรวมความรู�
 
 > การเรียนรู้ผ่านการลงมือทำเป็นอีกอย่างหนึ่งที่ช่วยให้เรา เรียนได้อย่างได้รวดเร็วและมีความต่อเนื่อง
 >
-> > เรียนรู้ผ่านขั้นตอน 4P 1.Project 2.Passion 3.Peers 4.Play  
-> > Credit Lfitlong Kindergarten
+> > เรียนรู้ผ่านขั้นตอน 4P 1. Project 2. Passion 3. Peers 4. Play  
+> > Credit lifelong kindergarten
+> > Mitchel Resnick
 
 ## Table of content
 
-- Show, Hide pasword
-- superPlaceholder
+* Show, Hide pasword
+* superPlaceholder
+* [search Photo in stock](https://github.com/Wissanukhong/javaScript-Workshops)
