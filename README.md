@@ -12,4 +12,4 @@ javaScript Workshops เป็นการรวบรวมความรู�
 
 * Show, Hide pasword
 * superPlaceholder
-* [search Photo in stock](https://github.com/Wissanukhong/javaScript-Workshops)
+* [search Photo in stock](https://github.com/Wissanukhong/javaScript-Workshops/tree/master/searchPhotos)
