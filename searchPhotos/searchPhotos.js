@@ -26,12 +26,12 @@ function removePhotos() {
 // function file before send result
 function checkFileExist(keyword) {
     var http = new XMLHttpRequest();
-    
+
     http.open('HEAD', `asset/photo-${keyword}.jpg`, false);
     http.send();
     if (http.status === 200) {
         return true;
-    } 
+    }
     return false;
 }
 
