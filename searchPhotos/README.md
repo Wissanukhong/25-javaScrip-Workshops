@@ -9,7 +9,7 @@
 
 ![Picture](asset/project.png)
 
-## Table of content
+## Table of content 📖
 
 * [HMTL](#html)
 * [CSS](#css)
@@ -30,7 +30,7 @@
 <script src="searchPhotos.js"></script>
 ```
 
-***อธิบาย Code***
+📝 ***อธิบาย Code***
 
 * สร้าง Element H1 เพื่อสร้าง Header
 * สร้าง Element Input เพื่อสร้าง Search box
@@ -125,17 +125,17 @@ function searchPhotos(event) {
 }
 ```
 
-***อธิบาย Code function run***
+📝  ***อธิบาย Code function run***
 
-* const inputEle = document.querySelector('input'); คือการเรียกใช้ Element input โดยการสร้างตัวแปรเพื่อมารับค่าที่อยู่หน้า HTML
+* `const inputEle = document.querySelector('input');` คือการเรียกใช้ Element input โดยการสร้างตัวแปรเพื่อมารับค่าที่อยู่หน้า HTML
 
-* inputEle.addEventListener('keydown', searchPhotos) คือเราต้องให้ Element นี้ทำงานอย่างไร โดยในที่นี่คือ keydown, และเรียกใช้งาน Function searchPhotos
+* `inputEle.addEventListener('keydown', searchPhotos);` คือเราต้องให้ Element นี้ทำงานอย่างไร โดยในที่นี่คือ keydown, และเรียกใช้งาน Function searchPhotos
 
-```js
+``` js
 // function run
 function run() {
     const inputEle = document.querySelector('input');
-    inputEle.addEventListener('keydown', searchPhotos)
+    inputEle.addEventListener('keydown', searchPhotos);
 }
 
 run();
